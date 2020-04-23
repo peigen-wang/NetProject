@@ -13,9 +13,6 @@
         "packagesPath": "C:\\Users\\peigen\\.nuget\\packages\\",
         "outputPath": "E:\\研发\\NetProject\\APIGateway\\APIGateway\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\peigen\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
