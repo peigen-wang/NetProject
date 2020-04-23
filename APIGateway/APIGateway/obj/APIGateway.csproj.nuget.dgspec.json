@@ -1,18 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "E:\\研发\\APIGateway\\APIGateway\\APIGateway.csproj": {}
+    "E:\\研发\\NetProject\\APIGateway\\APIGateway\\APIGateway.csproj": {}
   },
   "projects": {
-    "E:\\研发\\APIGateway\\APIGateway\\APIGateway.csproj": {
+    "E:\\研发\\NetProject\\APIGateway\\APIGateway\\APIGateway.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\研发\\APIGateway\\APIGateway\\APIGateway.csproj",
+        "projectUniqueName": "E:\\研发\\NetProject\\APIGateway\\APIGateway\\APIGateway.csproj",
         "projectName": "APIGateway",
-        "projectPath": "E:\\研发\\APIGateway\\APIGateway\\APIGateway.csproj",
+        "projectPath": "E:\\研发\\NetProject\\APIGateway\\APIGateway\\APIGateway.csproj",
         "packagesPath": "C:\\Users\\peigen\\.nuget\\packages\\",
-        "outputPath": "E:\\研发\\APIGateway\\APIGateway\\obj\\",
+        "outputPath": "E:\\研发\\NetProject\\APIGateway\\APIGateway\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\peigen\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -41,6 +44,18 @@
             "Ocelot": {
               "target": "Package",
               "version": "[15.0.6, )"
+            },
+            "Ocelot.Provider.Consul": {
+              "target": "Package",
+              "version": "[15.0.6, )"
+            },
+            "Ocelot.Provider.Polly": {
+              "target": "Package",
+              "version": "[15.0.6, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.3.3, )"
             }
           },
           "imports": [
